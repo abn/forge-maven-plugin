@@ -7,7 +7,7 @@
    </parent>
    <groupId>org.jboss.forge</groupId>
    <artifactId>forge-maven-plugin</artifactId>
-   <version>1.0.0.Alpha1</version>
+   <version>1.0.0-SNAPSHOT</version>
    <packaging>maven-plugin</packaging>
    <name>Forge Maven Plugin</name>
    <url>http://forge.jboss.org</url>
@@ -112,7 +112,7 @@
       <connection>scm:git:git://github.com/forge/forge-maven-plugin.git</connection>
       <developerConnection>scm:git:git@github.com:forge/forge-maven-plugin.git</developerConnection>
       <url>http://github.com/forge/forge-maven-plugin</url>
-     <tag>1.0.0.Alpha1</tag>
+     <tag>HEAD</tag>
   </scm>
 
 </project>
