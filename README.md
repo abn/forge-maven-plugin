@@ -12,7 +12,7 @@ Add the following to your pom.xml:
       <plugin>
         <groupId>org.jboss.forge</groupId>
         <artifactId>forge-maven-plugin</artifactId>
-        <version>${version.forge}</version>
+        <version>1.0.0.Alpha1</version>
         <executions>
            <execution>
               <id>deploy-addons</id>
@@ -33,7 +33,11 @@ Add the following to your pom.xml:
         </executions>
       </plugin>
 
-Where version.forge is a maven property with the desired forge version (2.0.0.Alpha1 for example)
+Where: 
+
+    version.forge
+    
+is a maven property with the desired forge version (2.0.0.Alpha1 for example)
 
 
 ## Get the code
