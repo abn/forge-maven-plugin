@@ -95,7 +95,7 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-plugin-plugin</artifactId>
             <configuration>
-               <goalPrefix>forge-maven-plugin</goalPrefix>
+               <goalPrefix>forge</goalPrefix>
             </configuration>
             <executions>
                <execution>
