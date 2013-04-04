@@ -17,7 +17,7 @@ import org.jboss.forge.addon.manager.impl.AddonManagerImpl;
 import org.jboss.forge.container.Forge;
 import org.jboss.forge.container.ForgeImpl;
 import org.jboss.forge.container.addons.AddonId;
-import org.jboss.forge.container.impl.AddonRepositoryImpl;
+import org.jboss.forge.container.repositories.AddonRepositoryMode;
 import org.jboss.forge.maven.dependencies.FileResourceFactory;
 import org.jboss.forge.maven.dependencies.MavenContainer;
 import org.jboss.forge.maven.dependencies.MavenDependencyResolver;
@@ -56,7 +56,7 @@ public class AddonInstallMojo extends AbstractMojo
       {
          addonRepository.mkdirs();
       }
-      forge.setRepositories(AddonRepositoryImpl.forDirectory(forge, addonRepository));
+      forge.addRepository(AddonRepositoryMode.MUTABLE, addonRepository);
       AddonManager addonManager = new AddonManagerImpl(forge, new MavenDependencyResolver(
                new FileResourceFactory(), new MavenContainer()));
 

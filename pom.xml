@@ -46,7 +46,7 @@
 
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <version.forge>2.0.0.Alpha1</version.forge>
+      <version.forge>2.0.0.Alpha2</version.forge>
    </properties>
 
    <dependencies>
